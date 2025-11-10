@@ -1,0 +1,47 @@
+Feature Name,"Type, Subtype",Description,Relevance to Severity
+ID,"Qualitative, Nominal",Unique accident identifier,Low
+Source,"Qualitative, Nominal",Data provider source,Low
+Severity,"Quantitative, Ordinal",Accident severity level,Target Variable
+Start_Time,"Qualitative, Ordinal",Accident start timestamp,High
+End_Time,"Qualitative, Ordinal",Accident end timestamp,Medium
+Start_Lat,"Quantitative, Continuous",Start latitude coordinate,Low
+Start_Lng,"Quantitative, Continuous",Start longitude coordinate,Low
+End_Lat,"Quantitative, Continuous",End latitude coordinate,Low
+End_Lng,"Quantitative, Continuous",End longitude coordinate,Low
+Distance(mi),"Quantitative, Continuous",Distance between start–end,High
+Description,"Qualitative, Nominal",Short text description,Medium
+Street,"Qualitative, Nominal",Street of occurrence,Low
+City,"Qualitative, Nominal",City of accident,Low
+County,"Qualitative, Nominal",County of accident,Low
+State,"Qualitative, Nominal",US state abbreviation,Low
+Zipcode,"Qualitative, Nominal",Postal zip code,Low
+Country,"Qualitative, Nominal",Country of accident,Low
+Timezone,"Qualitative, Nominal",Local timezone info,Low
+Airport_Code,"Qualitative, Nominal",Nearby airport code,Low
+Weather_Timestamp,"Qualitative, Ordinal",Weather data timestamp,Medium
+Temperature(F),"Quantitative, Continuous",Temperature during accident,High
+Wind_Chill(F),"Quantitative, Continuous",Wind chill factor,Medium
+Humidity(%),"Quantitative, Continuous",Humidity percentage,Medium
+Pressure(in),"Quantitative, Continuous",Air pressure inches,Medium
+Visibility(mi),"Quantitative, Continuous",Visual range at scene,Medium–High
+Wind_Direction,"Qualitative, Nominal",Wind direction at incident,Low–Medium
+Wind_Speed(mph),"Quantitative, Continuous",Wind speed in mph,Medium
+Precipitation(in),"Quantitative, Continuous",Rainfall/snowfall amount,Medium
+Weather_Condition,"Qualitative, Nominal",General weather condition,Medium
+Amenity,"Qualitative, Binary",Near public amenity,Low
+Bump,"Qualitative, Binary",Bump or speed breaker,Low
+Crossing,"Qualitative, Binary",Near pedestrian crossing,Medium
+Give_Way,"Qualitative, Binary",Presence of yield sign,Medium
+Junction,"Qualitative, Binary",Near road junction,Medium
+No_Exit,"Qualitative, Binary",No exit road,Low
+Railway,"Qualitative, Binary",Near railway crossing,Low–Medium
+Roundabout,"Qualitative, Binary",Roundabout in vicinity,Low
+Station,"Qualitative, Binary",Near transit station,Low
+Stop,"Qualitative, Binary",Stop sign nearby,Medium
+Traffic_Calming,"Qualitative, Binary",Traffic calming feature,Low–Medium
+Traffic_Signal,"Qualitative, Binary",Traffic signal present,Medium
+Turning_Loop,"Qualitative, Binary",Turning loop nearby,Low
+Sunrise_Sunset,"Qualitative, Nominal",Day or night condition,High
+Civil_Twilight,"Qualitative, Nominal",Civil twilight period,Medium
+Nautical_Twilight,"Qualitative, Nominal",Nautical twilight period,Medium
+Astronomical_Twilight,"Qualitative, Nominal",Astronomical twilight time,Medium
